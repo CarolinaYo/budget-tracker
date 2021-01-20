@@ -1,7 +1,7 @@
 {
-  "name": "budget-app",
+  "name": "budget-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "PWA budget tracker",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
+    "url": "git+https://github.com/CarolinaYo/budget-tracker.git"
   },
   "author": "",
   "license": "ISC",
