@@ -18,7 +18,7 @@ request.onsuccess = function (event) {
 };
 
 request.onerror = function (event) {
-  console.log("Woops! " + event.target.errorCode);
+  console.log("Error! " + event.target.errorCode);
 };
 
 function saveRecord(record) {
@@ -33,18 +33,18 @@ function saveRecord(record) {
 }
 
 function checkDatabase() {
-  // open a transaction on the pending object store in the budget db
+  // open a transaction on your pending object store
   const transaction = db.transaction(["pending"], "readwrite");
   // access your pending object store
   const store = transaction.objectStore("pending");
   // get all records from store and set to a variable
-  const getAll = store.getAll();
+  const getAllRequest = store.getAll();
 
-  getAll.onsuccess = function () {
-    if (getAll.result.length > 0) {
+  getAllRequest.onsuccess = function () {
+    if (getAllRequest.result.length > 0) {
       fetch("/api/transaction/bulk", {
         method: "POST",
-        body: JSON.stringify(getAll.result),
+        body: JSON.stringify(getAllRequest.result),
         headers: {
           Accept: "application/json, text/plain, */*",
           "Content-Type": "application/json"
