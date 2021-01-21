@@ -30,10 +30,10 @@ Then after sucessfull connection, the browser can access index.html through loca
 To test the offline capabilities, you can imitate offline state by selecting offline check box option in the Application option inside the Service Worker selection from the browser's devTool. \
 ![offline option](public/images/offline.png)
 
-### Link to access the app in __Heroku__:
+## Link to access the application in __Heroku__:
 
 This application is also hosted in Heroku web server. \
-Click this link: ********* to access this application.
+Click [Budget Tracker on Heroku](https://young-temple-67562.herokuapp.com/) to access this application.
 
 ## CONTRIBUTOR
 Front-end base code is provided by UW Fullstack Bootcamp team.
@@ -41,4 +41,4 @@ Front-end base code is provided by UW Fullstack Bootcamp team.
 ## MAINTAINER 
 This is an individual assignment maintained by Carolina Yoedhana.
 * GitHub repo: https://github.com/CarolinaYo/budget-tracker.git
-* Deployed Heroku link: 
+* Deployed Heroku link: https://young-temple-67562.herokuapp.com/
