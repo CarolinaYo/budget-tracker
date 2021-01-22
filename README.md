@@ -18,16 +18,16 @@ Back-end: MongoDB, Mongoose, NodeJS and Express.
 Front-end: JavaScript, CSS, Chart.js, IndexDB, Manifest and Service Worker
 
 # Installation
-## Steps required running the app through __local server__:
+## Steps required to run the application through __local server__:
 
 To run this application through your local server, first, it needs [MongoDB](https://www.mongodb.com/) and [Robo 3T](https://robomongo.org/download) installed and run.
 
-Then, in the terminal, run __npm install__ to have its dependecy packages installed. After all the neccesary tools are set, the app is ready to run the __server.js__ file in Node environment by typing __npm start__. \
+Then, in the terminal, run __npm install__ to have its dependecy packages installed. After all the neccesary tools are set, the app is ready to run __server.js__ file in Node environment by typing __npm start__. \
 Then after sucessfull connection, the browser can access index.html through localhost connection, in this case, _localhost:3000_. \
 
 ### Testing the offline capabilities:
 
-To test the offline capabilities, you can imitate offline state by selecting offline check box option in the Application option inside the Service Worker selection from the browser's devTool. \
+To test the offline capabilities, you can imitate offline state by selecting offline check box option in the Application option inside the Service Worker selection from the browser's Develop tool. \
 ![offline option](public/images/offline.png)
 
 ## Link to access the application in __Heroku__:
