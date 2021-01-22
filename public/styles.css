@@ -1,11 +1,16 @@
 body {
   font-size: 120%;
-  font-family: Arial;
+  font-family: palatino;
 }
 
 button, input {
   font-size: 100%;
-  font-family: Arial;
+  font-family: palatino;
+
+}
+
+button {
+  border-radius: 5px;
 }
 
 table {
@@ -33,10 +38,19 @@ tr:nth-child(even) {
 }
 
 .total {
-  font-size: 150%;
-  text-decoration: underline;
+  font-size: 100%;
+  text-decoration: none;
+  background-color: lightgrey;
+  box-sizing: 40%;
 }
+#total {
+  font-size: 120%;
+  font-weight: 700;
+  text-decoration: underline;
+  
 
+
+}
 .form {
   margin-top: 25px;
   width: 100%;
